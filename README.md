@@ -61,9 +61,9 @@ java --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls bmi.BMI
 
 ---
 
-🏗️ ## Future Development 
-Imperial Unit SupportTo make the application more versatile, the following updates are planned for the next release:1. Toggleable Unit SystemsImplement a Radio Button or Toggle Switch to allow users to choose between Metric (kg/m) and Imperial (lbs/ft) systems.Update the UI dynamically to change labels from "Weight (kg)" to "Weight (lbs)" and "Height (m)" to "Height (ft/in)".2. Enhanced Height InputsAdd two separate input fields for Imperial height (Feet and Inches) to improve user experience, as most users know their height in that format rather than total inches.3. Backend Logic UpdateIntegrate the Imperial BMI constant ($703$) into the calculation logic:$$BMI = \frac{weight_{lbs} \times 703}{(height_{ft} \times 12 + height_{in})^2}$$4. Input SanitizationAdd error handling to prevent the application from crashing if a user enters non-numeric characters (e.g., "6'1" instead of "6").
+## 🏗️ Future Development
 
+Future updates will focus on global accessibility by implementing a dual-unit system that allows users to toggle between metric and imperial measurements. This enhancement will introduce a selection interface—such as a toggle switch or dropdown menu—to switch between kilograms/meters and pounds/feet-inches, supported by backend logic incorporating the imperial conversion factor ($703 \times \frac{lb}{in^2}$). To ensure a seamless user experience, the UI will be refined to include dedicated input fields for feet and inches, alongside robust error handling to manage non-numeric inputs and unit-specific edge cases.
 ---
 
 ## 📝 Author
