@@ -4,6 +4,11 @@ A lightweight, desktop-based Body Mass Index (BMI) calculator built using **Java
 
 ---
 
+## Preview
+
+<img width="245" height="146" alt="image" src="https://github.com/user-attachments/assets/2ebb5fac-4cfc-4db3-a609-e677734e5ffa" />
+
+---
 ## 🚀 Features
 
 * **Real-time Calculation:** Instantly calculates BMI based on metric input (kg and meters).
